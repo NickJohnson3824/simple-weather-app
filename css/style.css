@@ -32,4 +32,12 @@ input {
 #weather {
     width: 80%;
     margin: auto;
+    text-align:center;
 }   
+#btnGetWeather {
+    display: block;
+    margin-top: 2em;
+}
+h1 {
+    text-decoration: underline;
+}
