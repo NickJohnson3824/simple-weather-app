@@ -15,12 +15,16 @@
 
         <section id="form">
             <form>
-                <div id="apikey">
+                <!-- Changed div id to divapikey.  Both the div and input element had ids of apikey -->
+                <div id="divapikey">
                     <label>Enter your API key:</label>
                     <input type="text" name="apikey" id="apikey">
                 </div>
                 <label>Zip Code:</label>
                 <input type="text" name="zip" id="zip">
+                
+                <!-- Added Button to use for an Event Handler -->
+                <input type="button" name="btnGetWeather" id="btnGetWeather" value="Get Weather">
             </form>
         </section>
 
